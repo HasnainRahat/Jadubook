@@ -1,0 +1,18 @@
+#loadingAnimation {
+  background: transparent url(../View/Images/loadingAnimation2.gif) no-repeat
+    center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999999999999;
+  backdrop-filter: blur(25px);
+}
+
+/* in html: 
+just after body: 
+<div id="loadingAnimation"></div>
+just before ending body: 
+<script src="../JS/loadingAnimation.js"></script>
+in css: 
+@import url('loadingAnimation.css'); 
+*/
